@@ -2,7 +2,7 @@ package CodingTest.BAEKJOON.Java;
 
 import java.util.Scanner;
 
-public class Main {
+public class Q_1010 {
 
     static int[][] dp = new int[30][30];
 
@@ -23,6 +23,7 @@ public class Main {
             sb.append(combi(M, N)).append('\n');
         }
 
+        in.close();
         System.out.println(sb);
 
     }

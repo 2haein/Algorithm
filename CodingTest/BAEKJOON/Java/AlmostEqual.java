@@ -39,9 +39,9 @@ class AlmostEqual {
             }
             // System.out.println(aMap);
             boolean isVaL = false;
-            Iterator entries = aMap.entrySet().iterator();
+            Iterator<Map.Entry<String, Integer>> entries = aMap.entrySet().iterator();
             while (entries.hasNext()) {
-                Map.Entry entry = (Map.Entry) entries.next();
+                Map.Entry<String, Integer> entry = (Map.Entry<String, Integer>) entries.next();
 
                 int val = Math.abs((Integer) entry.getValue());
                 if (val >= 4) {
