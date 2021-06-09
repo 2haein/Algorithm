@@ -3,19 +3,19 @@ package CodingTest;
 import java.util.*;
 import java.lang.Math;
 
-class AlmostEqualStrings {
+class AlmostEqual {
     public static void main(String[] args) {
 
         List<String> s = new ArrayList<>();
         List<String> t = new ArrayList<>();
-        s.add("dddd");
-        t.add("klmn");
-        List<String> result = almost(s, t);
+        s.add("aaaaa");
+        t.add("klmns");
+        List<String> result = equalStrings(s, t);
 
         System.out.println(result);
     }
 
-    public static List<String> almost(List<String> s, List<String> t) {
+    public static List<String> equalStrings(List<String> s, List<String> t) {
 
         List<String> result = new ArrayList<>();
 
